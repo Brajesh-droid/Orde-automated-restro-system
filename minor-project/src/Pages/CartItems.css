@@ -1,0 +1,64 @@
+.cart-item{
+    background-color: white;
+    margin: 12px;
+    padding-top: 7px;
+    box-shadow: 9px 6px 26px -18px black;
+    
+}
+
+
+.dish-img-name-rate{
+    padding: 0px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-img{
+    height: 60px;
+    /* transform: scale(5.5); */
+    width: 60px;
+    background-color: aqua;
+}
+
+
+.dish-name{
+    font-size: 20px;
+    /* margin-left: -32px; */
+    font-weight: 600;
+}
+
+.dish-rate{
+    color: green;
+    font-weight: 600;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+.operations{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.opr-btns{
+    
+    padding: 0.5em 0.8em;
+    background: rgba(249, 249, 249, 0.2);
+    border-radius: 14px;
+    border: none;
+    font-size: 21px;
+
+}
+
+.del-btn{
+   
+    transform: scale(1);
+    border: none;
+    background-color: white;
+}
+

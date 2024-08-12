@@ -1,0 +1,68 @@
+.open-panel{
+    
+    position: absolute;
+    left: 29%;
+    display: flex;
+    top: 14%;
+    padding: 5%;
+    height: 68%;
+    background-color: aliceblue;
+    width: 40;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.open-btn {
+    color: darkgoldenrod;
+    font-weight: 200;
+    font-size: 11px;
+
+    text-decoration: none;
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    display: flex;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    align-items: center;
+    justify-content: center;
+       }
+       
+       .open-btn::before {
+        content: '';
+        width: 0;
+        height: 4em;
+        border-radius: 30em;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+        transition: .5s ease;
+        display: block;
+        z-index: -1;
+       }
+       
+       .open-btn:hover::before {
+        width: 9em;
+       }
+
+
+.open-panel-body{
+    height: 100vh;
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+
+h4{
+    font-size: 44px;
+    font-family: 'Reem Kufi', sans-serif;
+}

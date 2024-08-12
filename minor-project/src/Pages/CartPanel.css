@@ -1,0 +1,44 @@
+h1{
+    font-size: 22px;
+        text-align: center;
+    }
+    
+    
+    .items-list{
+    height: 272px;
+    overflow-y: scroll;
+     overflow-x:visible;
+    }
+    
+    
+    h3{
+        font-size: 19px;
+        font-weight: 400;
+    }
+    .sub-total{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        height: 53px;
+        border-top: 1px solid #b39b9b;
+    }
+    .pay-btn{
+        background-color: #63e963;
+        padding: 5px 27px;
+        margin-left: 34%;
+        text-decoration: none;
+        color: whitesmoke;
+        border-radius: 24px;
+    }
+    .items-list::-webkit-scrollbar {
+        width: 3px;
+    }
+     
+   
+     
+    .items-list::-webkit-scrollbar-thumb {
+      background-color: darkgrey;
+      border-radius: 2px;
+    
+      /* outline: 1px solid slategrey; */
+    }

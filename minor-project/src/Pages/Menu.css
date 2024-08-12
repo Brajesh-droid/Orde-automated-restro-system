@@ -1,0 +1,46 @@
+.dish-scroll{
+        position: absolute;
+        z-index: -1;
+        overflow: scroll;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+}
+
+.big-style{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+}
+.welcome-div{
+
+}
+.salad{
+        height: 500px;
+}
+.big-text{
+        font-size: 55px;
+}
+.color-text{
+        color: #94cd3d;
+}
+.res-data{
+        /* border: 1px solid; */
+        width: 472px;
+        padding-left: 32px;
+}
+p{
+        font-size: 21px;
+}
+
+.head{
+        font-size: 46px;
+        
+}
+
+p{
+        font-size: small;
+}

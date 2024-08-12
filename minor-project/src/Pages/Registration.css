@@ -1,0 +1,8 @@
+.register{
+    display: flex;
+    height: 414px;
+    border: 1px solid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

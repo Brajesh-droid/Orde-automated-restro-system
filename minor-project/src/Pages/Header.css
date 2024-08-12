@@ -1,0 +1,31 @@
+.navbar{
+    height: 70px;
+    padding: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: rgba(136, 15, 15, 0.2);
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.25);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.3px);
+-webkit-backdrop-filter: blur(7.3px);
+
+position: sticky;
+top: 0px;
+}
+
+.cart{
+    width: 424px;
+    height: 402px;
+    padding: 1px 11px;
+}
+
+.cartEmpty{
+    background-image: url('EmptyCart.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 402px;
+}
